@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{One-replicate timing comparison between full Whittle-index recomputation and lazy event-driven recomputation for the region-grid TW policy. The state sizes are $|S|=QGO$ with $Q=4$ and $O=3$. Wall-time saving is computed as $100\,(1-t_{\mathrm{event}}/t_{\mathrm{full}})$.}
+\label{tab:region_grid_tw_event_timing}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{ccccccccc}
+\toprule
+$G$ & $|S|$ & Policy & Full time (s) & Event time (s) & \makecell{Wall-time\\ saving} & Speedup & \makecell{States\\ computed} & \makecell{Computation\\ saving} \\
+\midrule
+5 & 60 & TW & 40.6 & 23.7 & 41.6\% & 1.71x & 2723 & 43.3\% \\
+15 & 180 & TW & 603.4 & 218.4 & 63.8\% & 2.76x & 3177 & 77.9\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

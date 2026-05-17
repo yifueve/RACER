@@ -1,0 +1,11 @@
+policy_label,display_name,wins,win_share
+tm_tw_refined_gated_offline_low_rank_best_beta,"Adp. + beta
+gate + LR",4,0.25
+tm_tw_refined_gated_offline_best_beta,"Adp. + beta
+gate prior",4,0.25
+tm_tw_refined_support_gated_offline_low_rank_best_beta,"Adp. + beta support-gate
++ LR",3,0.1875
+tm_tw_refined_gated_offline,Adp. + gated prior,2,0.125
+tm_tw_refined_support_offline,"Adp. + support/
+offline",2,0.125
+tm_tw_refined_dense,Adp. TM--TW,1,0.0625

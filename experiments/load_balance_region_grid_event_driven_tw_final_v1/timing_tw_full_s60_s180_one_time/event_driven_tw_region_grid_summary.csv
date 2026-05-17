@@ -1,0 +1,3 @@
+computation,queue_states,grid_states,op_states,S,arms,budget,rounds,policy_label,display_name,policy,transition_variant,gate_mode,n,mean_avg_reward,mean_cum_reward,mean_walltime_seconds,mean_replan_calls,mean_event_replans,mean_states_computed,mean_computation_saving_pct
+Full recompute TW,4,5,3,60,8,2,250,tw_dense,TW,tw,dense,deterministic,1,7355.895680414655,1838973.9201036636,40.601384958000004,10.0,0.0,4800.0,0.0
+Full recompute TW,4,15,3,180,8,2,250,tw_dense,TW,tw,dense,deterministic,1,1081.9723651499562,270493.09128748905,603.433376958,10.0,0.0,14400.0,0.0

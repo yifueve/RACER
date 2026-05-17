@@ -1,0 +1,34 @@
+computation,queue_states,grid_states,op_states,S,arms,budget,rounds,policy_label,display_name,policy,transition_variant,gate_mode,n,mean_avg_reward,mean_cum_reward,mean_walltime_seconds,mean_replan_calls,mean_event_replans,mean_states_computed,mean_computation_saving_pct
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,exp4_dense,EXP4,exp4,dense,deterministic,2,3780.6409654397876,945160.2413599469,19.469962833500002,10.0,0.0,2353.0,50.979166666666664
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,global_ucb_tw_dense,Global UCB+TW,global_ucb_tw,dense,deterministic,2,3571.218148222858,892804.5370557145,19.642435604499997,10.0,0.0,2420.5,49.57291666666667
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,local_ucb_tw_dense,Local UCB+TW,local_ucb_tw,dense,deterministic,2,3928.2434687819004,982060.867195475,21.197527563,10.0,0.0,2592.5,45.98958333333333
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,oracle,oracle,oracle,dense,deterministic,2,6328.309806832651,1582077.4517081627,0.04015439600000903,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,state_thompson,State Thompson,state_thompson,dense,deterministic,2,4064.8860674577163,1016221.516864429,0.05127885400000576,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tm_tw_dense,TM-TW,tm_tw,dense,deterministic,2,3389.0780682646227,847269.5170661558,21.7591664375,10.0,0.0,2662.5,44.53125
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tm_tw_refined_dense,Adaptive TM-TW,tm_tw_refined,dense,deterministic,2,3782.909366278623,945727.3415696558,21.756163000000015,10.0,0.0,2603.0,45.77083333333333
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,tm_tw_refined,gated_offline,beta,2,3535.460880332078,883865.2200830195,21.351036812000004,10.0,0.0,2619.0,45.4375
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,tm_tw_refined,gated_offline_low_rank,beta,2,4828.3206216172875,1207080.1554043218,22.137584812499995,10.0,0.0,2654.5,44.697916666666664
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tm_tw_refined_support_offline,Adaptive + support/offline,tm_tw_refined,support_offline,deterministic,2,3046.389191943954,761597.2979859884,21.417248458500026,10.0,0.0,2576.5,46.322916666666664
+Event-Driven TW (M1+M3),4,5,3,60,8,2,250,tw_dense,TW,tw,dense,deterministic,2,3915.608522907697,978902.1307269242,22.421627916500007,10.0,0.0,2675.5,44.26041666666667
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,exp4_dense,EXP4,exp4,dense,deterministic,2,2087.961889200993,521990.4723002482,81.06192325,10.0,0.0,2774.0,71.10416666666666
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,global_ucb_tw_dense,Global UCB+TW,global_ucb_tw,dense,deterministic,2,2772.3740670639,693093.5167659749,81.76023235399998,10.0,0.0,2801.0,70.82291666666667
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,local_ucb_tw_dense,Local UCB+TW,local_ucb_tw,dense,deterministic,2,2214.9527861938664,553738.1965484666,86.54645433350007,10.0,0.0,3025.5,68.484375
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,oracle,oracle,oracle,dense,deterministic,2,5073.91338000727,1268478.3450018174,0.037978082999927665,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,state_thompson,State Thompson,state_thompson,dense,deterministic,2,1429.7789109795708,357444.7277448927,0.05347408350007754,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tm_tw_dense,TM-TW,tm_tw,dense,deterministic,2,2527.807277977342,631951.8194943354,84.22140431250006,10.0,0.0,3044.0,68.29166666666666
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tm_tw_refined_dense,Adaptive TM-TW,tm_tw_refined,dense,deterministic,2,2744.747456532268,686186.864133067,87.11191122899999,10.0,0.0,2948.0,69.29166666666667
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,tm_tw_refined,gated_offline,beta,2,2863.560220608989,715890.0551522472,87.426207438,10.0,0.0,3092.5,67.78645833333334
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,tm_tw_refined,gated_offline_low_rank,beta,2,2519.0435223306504,629760.8805826626,87.44260141649994,10.0,0.0,2910.0,69.6875
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tm_tw_refined_support_offline,Adaptive + support/offline,tm_tw_refined,support_offline,deterministic,2,2645.4464157925995,661361.6039481498,91.98832858349988,10.0,0.0,2935.0,69.42708333333334
+Event-Driven TW (M1+M3),4,10,3,120,8,2,250,tw_dense,TW,tw,dense,deterministic,2,2863.971978597103,715992.9946492757,91.46034372899993,10.0,0.0,3120.5,67.49479166666666
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,exp4_dense,EXP4,exp4,dense,deterministic,2,2449.7920806490765,612448.0201622691,80.92967393749996,10.0,0.0,2669.0,81.46527777777777
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,global_ucb_tw_dense,Global UCB+TW,global_ucb_tw,dense,deterministic,2,2475.4022503880587,618850.5625970147,89.43948174999991,10.0,0.0,2869.0,80.07638888888889
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,local_ucb_tw_dense,Local UCB+TW,local_ucb_tw,dense,deterministic,2,558.3210683366842,139580.26708417106,93.33360495800002,10.0,0.0,3033.5,78.93402777777777
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,oracle,oracle,oracle,dense,deterministic,2,2994.829778282996,748707.444570749,0.04091291649979212,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,state_thompson,State Thompson,state_thompson,dense,deterministic,2,797.3827900813392,199345.6975203348,0.0541705625000759,0.0,0.0,0.0,100.0
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tm_tw_dense,TM-TW,tm_tw,dense,deterministic,2,618.7770464891476,154694.2616222869,95.7905974790001,10.0,0.0,3119.0,78.34027777777777
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tm_tw_refined_dense,Adaptive TM-TW,tm_tw_refined,dense,deterministic,2,683.6223459681001,170905.58649202503,88.16073364600015,10.0,0.0,2913.0,79.77083333333334
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,tm_tw_refined,gated_offline,beta,2,544.9793707212208,136244.84268030518,94.44788339549996,10.0,0.0,2988.0,79.25
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,tm_tw_refined,gated_offline_low_rank,beta,2,674.2288362626899,168557.20906567248,96.83548391699992,10.0,0.0,3075.5,78.64236111111111
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tm_tw_refined_support_offline,Adaptive + support/offline,tm_tw_refined,support_offline,deterministic,2,527.8153840489715,131953.84601224287,98.28527093749994,10.0,0.0,3011.5,79.08680555555556
+Event-Driven TW (M1+M3),4,15,3,180,8,2,250,tw_dense,TW,tw,dense,deterministic,2,500.0779751692309,125019.49379230774,92.26157285449995,10.0,0.0,3052.5,78.80208333333333

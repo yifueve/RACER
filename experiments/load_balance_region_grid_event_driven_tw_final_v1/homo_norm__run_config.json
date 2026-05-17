@@ -1,0 +1,49 @@
+{
+  "setting": "Region-grid event-driven TW",
+  "arms": 8,
+  "budget": 2,
+  "rounds": 250,
+  "seeds": 2,
+  "queue_states": 4,
+  "region_state_grid": [
+    5,
+    10,
+    15
+  ],
+  "op_states": 1,
+  "state_sizes": [
+    20,
+    40,
+    60
+  ],
+  "computation": "Event-Driven TW (M1+M3)",
+  "computation_mode": "event",
+  "strategies": [
+    "oracle",
+    "State Thompson",
+    "Local UCB+TW",
+    "Global UCB+TW",
+    "EXP4",
+    "TW",
+    "TM-TW",
+    "Adaptive TM-TW",
+    "Adaptive + beta-gate prior",
+    "Adaptive + beta-gate + LR",
+    "Adaptive + support/offline"
+  ],
+  "policy_labels": [
+    "oracle",
+    "state_thompson",
+    "local_ucb_tw_dense",
+    "global_ucb_tw_dense",
+    "exp4_dense",
+    "tw_dense",
+    "tm_tw_dense",
+    "tm_tw_refined_dense",
+    "tm_tw_refined_gated_offline_beta",
+    "tm_tw_refined_gated_offline_low_rank_beta",
+    "tm_tw_refined_support_offline"
+  ],
+  "source_style": "Event_driven_TW_varying_data_center_jobs.py",
+  "grid_cost_csv": "/Users/yifuding/Documents/GitHub/VM_trace_cleaning/ruicheng_codebase_2026-04-28/docs/research/rmab_vm_outputs/grid_cost_features_v1/grid_cost_region_averages_2023.csv"
+}

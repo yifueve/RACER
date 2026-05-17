@@ -1,0 +1,33 @@
+trust_floor,policy_label,display_name,seed_index,avg_reward,avg_reward_pct_oracle,computation_saving_pct
+0.01,tm_tw_refined_dense,Adaptive TM-TW,0,750.4726787224946,61.27797636150905,70.1875
+0.01,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,0,891.5933571888766,72.80083368111671,70.625
+0.01,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,0,613.2478339449049,50.07322363312588,70.16666666666667
+0.01,tm_tw_refined_support_offline,Adaptive + support/offline,0,552.2684959542006,45.09410775339034,67.25
+0.01,tm_tw_refined_dense,Adaptive TM-TW,1,704.7791197477251,17.181219130230062,69.02083333333333
+0.01,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,1,1551.004460842084,37.81063707340089,64.41666666666667
+0.01,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,1,2624.400454033456,63.97805783798495,67.64583333333334
+0.01,tm_tw_refined_support_offline,Adaptive + support/offline,1,1666.3565884932225,40.6227098587324,67.6875
+0.2,tm_tw_refined_dense,Adaptive TM-TW,0,641.2821929802087,52.36229935697463,69.52083333333333
+0.2,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,0,891.5933571888766,72.80083368111671,70.625
+0.2,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,0,446.39153914661694,36.448988696520985,69.77083333333334
+0.2,tm_tw_refined_support_offline,Adaptive + support/offline,0,776.8014293300037,63.427784879657096,70.89583333333334
+0.2,tm_tw_refined_dense,Adaptive TM-TW,1,704.7791197477251,17.181219130230062,69.02083333333333
+0.2,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,1,1551.004460842084,37.81063707340089,64.41666666666667
+0.2,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,1,1828.255729014177,44.569513236338295,69.91666666666667
+0.2,tm_tw_refined_support_offline,Adaptive + support/offline,1,1666.3565884932225,40.6227098587324,67.6875
+0.3,tm_tw_refined_dense,Adaptive TM-TW,0,716.955973270926,58.54125330335181,69.8125
+0.3,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,0,785.5409484337194,64.14138853270425,70.52083333333333
+0.3,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,0,723.165702164124,59.04829324113676,69.875
+0.3,tm_tw_refined_support_offline,Adaptive + support/offline,0,1004.5333244167034,82.02266525243697,67.9375
+0.3,tm_tw_refined_dense,Adaptive TM-TW,1,1289.7823494465017,31.44252228141417,69.79166666666667
+0.3,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,1,1405.8962041074192,34.2731645707303,67.72916666666666
+0.3,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,1,2113.837345231736,51.53146796841871,66.79166666666667
+0.3,tm_tw_refined_support_offline,Adaptive + support/offline,1,1829.6547416946464,44.6036185932588,67.08333333333334
+0.4,tm_tw_refined_dense,Adaptive TM-TW,0,901.4415897015604,73.60496656459777,71.1875
+0.4,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,0,481.1531060531755,39.287357814521584,64.85416666666667
+0.4,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,0,1001.8927410515514,81.80705499823581,70.58333333333333
+0.4,tm_tw_refined_support_offline,Adaptive + support/offline,0,658.1603243522288,53.7404411129166,69.08333333333334
+0.4,tm_tw_refined_dense,Adaptive TM-TW,1,1832.2923856442649,44.667919503169614,68.91666666666667
+0.4,tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,1,1223.1075156737763,29.817112422604918,64.89583333333333
+0.4,tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,1,2113.837345231736,51.53146796841871,66.79166666666667
+0.4,tm_tw_refined_support_offline,Adaptive + support/offline,1,1829.6547416946464,44.6036185932588,67.08333333333334

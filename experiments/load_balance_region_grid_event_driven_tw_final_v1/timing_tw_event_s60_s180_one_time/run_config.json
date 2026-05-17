@@ -1,0 +1,31 @@
+{
+  "setting": "Region-grid event-driven TW",
+  "arms": 8,
+  "budget": 2,
+  "rounds": 250,
+  "seeds": 1,
+  "queue_states": 4,
+  "region_state_grid": [
+    5,
+    15
+  ],
+  "op_states": 3,
+  "state_sizes": [
+    60,
+    180
+  ],
+  "computation": "Event-Driven TW (M1+M3)",
+  "computation_mode": "event",
+  "mix_trust_min": 0.01,
+  "mix_trust_max": 0.98,
+  "gate_scale_mult": 1.0,
+  "beta_gate_concentration": 20.0,
+  "strategies": [
+    "TW"
+  ],
+  "policy_labels": [
+    "tw_dense"
+  ],
+  "source_style": "Event_driven_TW_varying_data_center_jobs.py",
+  "grid_cost_csv": "/Users/yifuding/Documents/GitHub/VM_trace_cleaning/ruicheng_codebase_2026-04-28/docs/research/rmab_vm_outputs/grid_cost_features_v1/grid_cost_region_averages_2023.csv"
+}

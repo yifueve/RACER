@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Region-grid load-balancing after per-scenario grid-cost normalization. We report both homogeneous operation type ($O=1$) and heterogeneous operation type ($O=3$) settings with $Q=4$. For each configuration, the table reports the best baseline, TW, and the best refined variant. Rewards are normalized as percent of oracle.}
+\label{tab:region_grid_event_tw_q4_norm_best_refined}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcclccclcc}
+\toprule
+Type mix & $G$ & $|S|$ & \makecell{Best baseline\\ name} & Best baseline & TW & Best refined & Best refined variant & \makecell{Margin \\vs baseline} & \makecell{Margin \\vs TW} \\
+\midrule
+Heter. & 5 & 60 & State Thompson & 64.43 & 59.76 & 73.16 & Adp. TM--TW + beta gate + low-rank & +8.73 & +13.40 \\
+Heter. & 10 & 120 & Global UCB+TW & 50.49 & 53.36 & 54.78 & Adp. TM--TW + beta gate prior & +4.30 & +1.43 \\
+Heter. & 15 & 180 & Global UCB+TW & 77.16 & 23.19 & 30.18 & Adp. TM--TW & -46.98 & +6.99 \\
+\addlinespace
+Homo. & 5 & 20 & State Thompson & 62.47 & 54.71 & 65.52 & Adp. TM--TW + support/offline prior & +3.05 & +10.82 \\
+Homo. & 10 & 40 & Local UCB+TW & 67.63 & 53.52 & 75.11 & Adp. TM--TW & +7.49 & +21.59 \\
+Homo. & 15 & 60 & EXP4 & 69.08 & 37.25 & 57.03 & Adp. TM--TW + beta gate + low-rank & -12.06 & +19.77 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

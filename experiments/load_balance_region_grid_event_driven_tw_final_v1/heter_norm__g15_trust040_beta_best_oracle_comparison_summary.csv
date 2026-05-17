@@ -1,0 +1,5 @@
+policy_label,display_name,mix_trust_min,gate_scale_mult,beta_gate_concentration,n,mean_avg_reward,mean_avg_reward_pct_oracle,mean_computation_saving_pct,margin_vs_best_baseline,margin_vs_tw
+tm_tw_refined_gated_offline_low_rank_beta,Adaptive + beta-gate + LR,0.4,0.5,80.0,2,980.7501029687028,41.88028895623891,79.30208333333334,-35.28012241270026,18.686450494549458
+tm_tw_refined_support_offline,Adaptive + support/offline,0.4,0.5,80.0,2,1120.6802296550904,35.817780463767434,79.10763888888889,-41.34263090517173,12.623942002077985
+tm_tw_refined_gated_offline_beta,Adaptive + beta-gate prior,0.4,0.5,80.0,2,633.7981772672082,23.138625524316353,80.5,-54.02178584462281,-0.05521293737309563
+tm_tw_refined_dense,Adaptive TM-TW,0.4,0.5,80.0,2,501.600060375359,20.73844420031397,79.55902777777779,-56.421967168625194,-2.455394261375478
